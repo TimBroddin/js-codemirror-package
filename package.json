@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "postinstall": "gulp"
+    "postinstall": "gulp",
+        "preinstall": "npx npm-force-resolutions"
+
   },
   "dependencies": {
     "codemirror": "^5.48.2",
@@ -17,5 +19,8 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "resolutions": {
+    "graceful-fs": "4.2.3"
+  }
 }
