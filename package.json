@@ -16,9 +16,6 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "graceful-fs": {
-      "version": "4.2.3"
-    }
   },
   "devDependencies": {}
 }
