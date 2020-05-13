@@ -4,9 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "postinstall": "gulp"
-  },
+    "start": "gulp"  },
   "dependencies": {
     "codemirror": "^5.48.2",
     "gulp": "^3.9.1",
@@ -19,4 +17,3 @@
   },
   "devDependencies": {}
 }
-
